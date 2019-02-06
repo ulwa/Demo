@@ -57,7 +57,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ActionCommand.cs" />
+    <Compile Include="ISaveFilesUtils.cs" />
+    <Compile Include="ServiceImplementations\SaveFileUtil.cs" />
     <Compile Include="ServiceImplementations\PartnerUtilDummy.cs" />
+    <Compile Include="Services\Interface1.cs" />
     <Compile Include="Services\IPartnerUtil.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
