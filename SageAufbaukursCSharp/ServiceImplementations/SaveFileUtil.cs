@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using SageAufbaukursCSharp.Services;
 
 namespace SageAufbaukursCSharp.ServiceImplementations
 {
@@ -24,7 +25,7 @@ namespace SageAufbaukursCSharp.ServiceImplementations
         }
 
         #region Services
-        private readonly IProblemSolver _problemsolver;
+        private readonly iProblemSolver _problemsolver;
         #endregion
         public bool Save(object beleg, string path)
         {
